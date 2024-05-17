@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+	<link rel="shortcut icon" href="../favicon.ico">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta http-equiv="pragma" content="no-cache">
+	<meta name="author" content="failte,failte@163.com">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta http-equiv="Window-target" content="_top">
+    <base target="_blank" />
+	<link rel="stylesheet" href="reset.css">
+	<!-- <link rel="stylesheet" href="index.css"> -->
+    <link rel="stylesheet/less" href="index.less">
+    <script>less = { env: 'development'};</script>
+    <script src="../less-1.3.3.min.js"></script>
+    <script>less.watch();</script>
+    <title>FlappyBird</title>
+</head>
+<body>
+	<section>
+		<canvas width="600" height="400"></canvas>
+		<p class="name">FlappyBird</p>
+		<p class="score">0</p>
+		<div class="count">
+			<p>Game Over</p>
+			<p class="result"></p>
+			<a href="javascript:void(0);" onclick="restart()"></a>
+		</div>
+	</section>
+	<script src="index.js"></script>
+</body>
+</html>
